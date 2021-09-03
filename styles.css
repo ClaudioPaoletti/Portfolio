@@ -27,6 +27,11 @@ a:hover{
 a img{
 	border:none;
 }
+img {
+	border:none;
+	width: 200px;
+	height: 200px;
+}
 
 /* Headings: */
 
