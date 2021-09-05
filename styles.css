@@ -6,7 +6,7 @@
 
 body{
 	/* Setting the default text color, size, page background and a font stack: */
-	font: size 20px;
+	font: size 30px;
 	color:#fcfcfc;
 	background-color:#355664;
 	font-family:Arial, Helvetica, sans-serif;
@@ -160,7 +160,7 @@ div.figure{
 	height:300px;
 	margin-left:15px;
 	overflow:hidden;
-	width:500px;
+	
 }
 
 div.figure:hover{
@@ -209,3 +209,45 @@ div.footer a.by{
 div.footer a.up{
 	float:right;
 }
+#foto {
+	animation-name: foto-in-moto;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes foto-in-moto {
+0%{
+	background: red;
+	transform:translate(10px,10px);
+}
+50%{
+	background: yellow;
+	transform:translate(10px,10px);
+}
+100%{
+	background: rgb(152, 212, 32);
+	transform:translate(-20px,-20px);
+}
+}
+#claudio 
+	{
+		animation-name: foto-in-traslazione;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	@keyframes foto-in-traslazione {
+		0%{
+			
+			transform:translate(-100px,20px);
+		}
+		50%{
+			
+			transform:translate(-200px,20px);
+		}
+		100%{
+			
+			transform:translate(0px,-40px);
+		}
+		}
