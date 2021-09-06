@@ -213,7 +213,8 @@ div.footer a.up{
 	animation-name: foto-in-moto;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+	animation-timing-function:linear;
+	animation-direction:alternate;
 }
 @keyframes foto-in-moto {
 0%{
@@ -235,6 +236,7 @@ div.footer a.up{
 		animation-duration: 4s;
 		animation-iteration-count: infinite;
 		animation-timing-function:linear;
+		animation-direction: alternate;
 	}
 
 	@keyframes foto-in-traslazione {
