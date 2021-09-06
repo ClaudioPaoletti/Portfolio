@@ -7,15 +7,15 @@
 body{
 	/* Setting the default text color, size, page background and a font stack: */
 	font: size 30px;
-	color:#fcfcfc;
-	background-color:#355664;
+	color: black;
+	background-color:#41ec0d;
 	font-family:Arial, Helvetica, sans-serif;
 }
 
 /* Hyperlink Styles: */
 
 a, a:visited {
-	color:#0196e3;
+	color:#1a1615;
 	text-decoration:none;
 	outline:none;
 }
@@ -66,16 +66,16 @@ p{
 .line{
 	/* The dividing line: */
 	height:1px;
-	background-color:#24404c;
-	border-bottom:1px solid #416371;
+	background-color:#24a713;
+	border-bottom:1px solid #8510c9;
 	margin:1em 0;
 	overflow:hidden;
 }
 
 div.article .line{
 	/* The dividing line inside of the article is darker: */
-	background-color:#15242a;
-	border-bottom-color:#204656;
+	background-color:white;
+	border-bottom-color:#b81538;
 	margin:1.3em 0;
 }
 
@@ -84,17 +84,17 @@ div.footer .line{
 }
 
 div.nav{
-	background:url(img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
+	background:url(img/gradient_light.jpg) repeat-x 50% 50% #cf1111;
 	padding:0 5px;
 	
 	right:0;
 	top:4em;
 	
-	border:1px solid #FCFCFC;
+	border:1px solid #5213b9;
 
-	-moz-box-shadow:0 1px 1px #333333;
-	-webkit-box-shadow:0 1px 1px #333333;
-	box-shadow:0 1px 1px #333333;
+	-moz-box-shadow:0 1px 1px #11ca30;
+	-webkit-box-shadow:0 1px 1px #d30e0e;
+	box-shadow:0 1px 1px #4b0ebd;
 }
 
 /* The clearfix hack to clear the floats: */
@@ -115,7 +115,7 @@ div.nav ul li{
 
 div.nav ul li a,
 div.nav ul li a:visited{
-	color:#565656;
+	color:#1d1111;
 	display:block;
 	float:left;
 	font: size 20px;
@@ -128,7 +128,7 @@ div.nav ul li a:visited{
 
 div.nav ul li a:hover{
 	text-decoration:none;
-	background-color:#f0f0f0;
+	background-color:#13082c;
 }
 
 div.nav, div.article, div.nav ul li a,div.figure{
@@ -147,26 +147,26 @@ div.nav, div.article, div.nav ul li a,div.figure{
 }
 
 div.article{
-	background-color:#213E4A;
+	background-color: white;
 	margin:3em 0;
 	padding:20px;
 	
-	text-shadow:0 2px 0 black;
+	text-shadow:0 2px 0 rgb(189, 13, 13);
 }
 
 div.figure{
-	border:3px solid #142830;
+	border:3px solid #3c0c94;
 	float:right;
-	height:300px;
+	height:290px;
 	margin-left:15px;
 	overflow:hidden;
 	
 }
 
 div.figure:hover{
-	-moz-box-shadow:0 0 2px #4D7788;
-	-webkit-box-shadow:0 0 2px #4D7788;
-	box-shadow:0 0 2px #4D7788;
+	-moz-box-shadow:0 0 2px #aa1219;
+	-webkit-box-shadow:0 0 2px #c41212;
+	box-shadow:0 0 2px #140879;
 }
 
 div.figure img{
@@ -188,8 +188,8 @@ div.footer p{
 }
 
 div.footer a,div.footer a:visited{
-	color:#cccccc;
-	background-color:#213e4a;
+	color:#14a13f;
+	background-color:#400cd1;
 	display:block;
 	padding:2px 4px;
 	z-index:100;
@@ -198,7 +198,7 @@ div.footer a,div.footer a:visited{
 
 div.footer a:hover{
 	text-decoration:none;
-	background-color:#142830;
+	background-color:#16070a;
 }
 
 div.footer a.by{
