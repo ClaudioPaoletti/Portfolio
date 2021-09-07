@@ -13,10 +13,15 @@
       crossorigin="anonymous"
     ></script>
     <!--qui inserisco lo script js di font awesome-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <!--qui inserisco i link ai files css-->
-  
+
     <link rel="icon" href="img/favicon.ico" />
     <!--qui inserisco la favicon--></head
   ><!--qui si chiude l'head-->
@@ -43,17 +48,25 @@
         <h4>Form Di Contatto</h4>
         <form action="https://formspree.io/f/xzbyykrr" method="post">
           <!--qui inizia il form di contatto-->
-          <label for="name">* Nome</label>
-          <input type="text" name="name" id="name" />
 
-          <label for="name">* Cognome</label>
-          <input type="text" name="name" id="surname" />
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Username"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+          </div>
 
-          <label for="email">* Email</label>
-          <input type="email" name="email" id="email" />
-
-          <label for="message">* Messsaggio:</label>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <div class="input-group">
+            <span class="input-group-text">With textarea</span>
+            <textarea
+              class="form-control"
+              aria-label="With textarea"
+            ></textarea>
+          </div>
 
           <p class="submit"><button type="submit">Inviare</button></p>
           <!--qui metto il pulsante del form-->
@@ -64,7 +77,11 @@
 
       <div class="footer">
         <!--qui si apre il footer-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+          crossorigin="anonymous"
+        ></script>
         <div class="line"></div>
 
         <p>Copyright 2021 - ClaudioPaoletti.com</p>
